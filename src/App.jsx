@@ -1,5 +1,6 @@
 import './App.css'
 import myPic from './assets/screenshot.png' 
+import Practice from './Practice.jsx'
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
 
     <div>
       <img src={myPic} alt="picture" width="100" />
+      
+      <Practice/>
+  
 
       <h1>Hello, React!</h1>
 
